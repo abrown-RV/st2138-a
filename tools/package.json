@@ -8,13 +8,13 @@
     "yaml": "^2.3.0"
   },
   "scripts": {},
-  "name": "smpte-st2138-a-validator",
+  "name": "@abrown-rv/smpte-st2138-a-validator",
   "version": "1.0.0",
   "description": "Validates JSON and YAML files against Catena schemata",
   "main": "validator.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SMPTE/st2138-a.git"
+    "url": "https://github.com/abrown-rv/st2138-a.git"
   },
   "keywords": [
     "json-schema",
