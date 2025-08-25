@@ -20,7 +20,8 @@ jobs:
           registry-url: 'https://npm.pkg.github.com/'
           scope: '@abrown-rv'
 
-      - run: npm ci
+      # - run: npm ci restore npm ci once there's a package-lock.json in the repo
+      - run: npm install
 
       - run: npm publish
         env:
