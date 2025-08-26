@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /*
  * Copyright (c) by the Society of Motion Picture and Television Engineers
  *
